@@ -1,0 +1,664 @@
+.next-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;}
+
+.next-button:hover {
+  background-color: #0056b3;
+}
+
+
+@media (max-width: 768px) {
+  .some-class{
+    
+  }
+}
+
+@keyframes animateBackground{
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+}
+
+
+body {
+    font-family: Georgia,'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    word-spacing: 0.1em;
+    font-weight: normal;
+    font-style: garamond;
+    text-decoration: none;
+    text-align: left;
+    text-transform: none;
+
+    background-color: #284755;
+    margin: 0;
+    padding: 0;
+  }
+
+
+header {
+  background-color: #284755;
+  margin: 10px;
+  padding: 20px;
+  align-items: center;
+
+  }
+
+
+
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    
+}
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+    
+  }
+  
+li{
+    text-transform: uppercase;
+    
+}
+
+  nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+  }
+
+.logo{
+  font-weight: bolder;
+    color: white;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+
+
+a {
+    float: right;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #000;
+    padding-right: 20px;
+}
+
+
+a:link {
+  color: blue; 
+}
+
+a:hover{
+    color: red;
+}
+
+.Bio{
+  font-weight: bold;
+  text-transform: uppercase;
+  float: left;
+  align-items: center;
+  color: white;
+}
+
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #e5e4e2;
+}
+    
+
+
+input {
+  width: 20%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #f1f0ed;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+
+div{
+margin: 5px;
+}
+
+
+
+
+
+/* MAIN */
+
+
+
+/*CONTAINER*/
+
+
+
+.container1{
+  display: block;
+  
+  }
+
+
+  .container2{
+    display: block;
+    
+    }
+
+    
+.container3{
+  display: block;
+  
+  }
+
+
+
+  .container4{
+    display: block;
+    
+    }
+  
+    .container5{
+      display: block;
+    }
+
+    .container6{
+       display: block;
+    }
+
+    .container7{
+      display: block;
+   }
+
+
+   .container8{
+    display: block;
+    
+    }
+
+
+    
+   .container9{
+    display: block;
+    
+    }
+
+
+
+
+
+/* SECTIONS */
+
+
+.section-one{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/neibour.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-two{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/work.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-three{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/woman1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section-four{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/MEAL/15lessons.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-five{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/MEAL/break1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-six{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/break.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-seven{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/MEAL/dep1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-eight{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/ONE/1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.section-nine{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/ONE/too-much-weight.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.section-ten{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/ONE/GYM.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+.section-1{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/ONE/cry.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-2{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/ONE/1691103614571.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.section-3{
+  padding: 170px;
+  margin: 10px;
+  background-image: url();
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-4{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/no.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-5{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/blacccck.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-6{
+  padding: 170px;
+  margin: 10px; 
+  background-image: url(photo/father.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-7{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/MEAL/hierachy.jpeg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-8{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/MEAL/divorce-.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.section-9{
+  padding: 100px;
+  margin: 10px;
+  background-image: url(photo/MEAL/CHEATING.webp);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+
+.section-10{
+  padding: 100px;
+  margin: 10px;
+  background-image: url(photo/ONE/wedding.jpeg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.section-11{
+  padding: 100px;
+  margin: 10px;
+  background-image: url(photo/ONE/boundaries.jpg);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+
+section{
+  background-color: #000;
+  display: block;
+}
+
+
+.section{
+  padding: 170px;
+  margin: 10px;
+  background-image: url(photo/blacccck.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+.meta-info{
+  color: red;
+}
+
+
+
+/* ARTICLES */
+
+
+
+
+article{
+  background-color:  #e5e4e2;;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+/* JOURNALES */
+
+
+
+.journal-one{
+  padding: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(photo/Masculinity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+   animation: animateBackground 20s infinite linear;
+}
+
+.journal-two {
+  padding: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   background-image: url(photo/dddddd.webp);
+   background-size: cover;
+   background-repeat: no-repeat;
+   z-index: -1;
+   animation: animateBackground 20s infinite linear;
+}
+
+
+
+.journal-three {
+  padding: 250px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(photo/blog.avif);
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+}
+
+
+
+
+/* IMG */
+
+img{
+  width: 80%;
+  height: 80%;
+}
+ 
+.container{
+  display: flex;
+  align-items: center;
+ object-fit: cover;
+}
+
+.custom-image {
+  width: 100%; 
+  height: auto; 
+  border: 2px solid;
+  border-radius: 10px; 
+}
+
+
+
+/* HEADERS */
+
+h1{
+  align-items: center;
+  text-transform: uppercase;
+}
+
+h2{
+  float: left;
+  align-self: start;
+  color: navy;
+}
+
+
+
+
+/* PARAGRAP */
+
+p {
+  font-size: 18px;
+  line-height: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.background-text {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  
+}
+
+
+
+
+.background-text p {
+  position: relative;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 1rem;
+  color: #000;
+}
+
+
+
+.comment-button {
+  
+  color: #000;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.comment-box {
+  display: none;
+  margin-top: 5px;
+}
+.comment-box textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.comment-box input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  color: #000;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+.comment-button, .like-button, .share-button {
+  background-color: #e5e4e2;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+.comment-box {
+  display: none;
+  margin-top: 20px;
+}
+.comment-box textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+.comment-box input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.searchForm{
+  background-color: #e5e4e2;
+}
+
+Form{
+  margin: 10px;
+  padding: 5px;
+  background-color: #f1f0ed;;
+}
+
+
+
+
+.meal-plan {
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.day {
+  display: flex;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.meal {
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
